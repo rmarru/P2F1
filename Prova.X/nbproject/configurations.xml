@@ -18,8 +18,7 @@
                    projectFiles="false">
       <itemPath>Makefile</itemPath>
     </logicalFolder>
-    <itemPath>../../Downloads/fase3.asm</itemPath>
-    <itemPath>../../../Downloads/Fase1.asm</itemPath>
+    <itemPath>../../../Downloads/fase3.asm</itemPath>
   </logicalFolder>
   <sourceRootList>
     <Elem>../../Downloads</Elem>

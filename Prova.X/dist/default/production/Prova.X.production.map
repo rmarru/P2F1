@@ -1,5 +1,5 @@
 MPLINK 5.08, LINKER
-Linker Map File - Created Fri Feb 17 13:51:01 2017
+Linker Map File - Created Fri Feb 17 14:09:23 2017
 
                                  Section Info
                   Section       Type    Address   Location Size(Bytes)
@@ -8,9 +8,9 @@ Linker Map File - Created Fri Feb 17 13:51:01 2017
                    .cinit    romdata   0x000004    program   0x000002
                    .org_1       code   0x000008    program   0x000002
                    .org_2       code   0x000018    program   0x00011a
-.config_300001_BUILD/DEFAULT/PRODUCTION/_EXT/11    romdata   0x300001    program   0x000001
-.config_300003_BUILD/DEFAULT/PRODUCTION/_EXT/11    romdata   0x300003    program   0x000001
-.config_300005_BUILD/DEFAULT/PRODUCTION/_EXT/11    romdata   0x300005    program   0x000001
+.config_300001_BUILD/DEFAULT/PRODUCTION/_EXT/21    romdata   0x300001    program   0x000001
+.config_300003_BUILD/DEFAULT/PRODUCTION/_EXT/21    romdata   0x300003    program   0x000001
+.config_300005_BUILD/DEFAULT/PRODUCTION/_EXT/21    romdata   0x300005    program   0x000001
 
 
 
@@ -30,57 +30,57 @@ Linker Map File - Created Fri Feb 17 13:51:01 2017
                               Symbols - Sorted by Name
                      Name    Address   Location    Storage File                     
                 ---------  ---------  ---------  --------- ---------                
-               APAGA_LEDS   0x000048    program     static ..\..\Downloads\fase3.asm
-                 BLINKING   0x000034    program     static ..\..\Downloads\fase3.asm
-                 ENVIA_RF   0x0000ea    program     static ..\..\Downloads\fase3.asm
-            ESBORRAR_LOOP   0x0000ce    program     static ..\..\Downloads\fase3.asm
-          GUARDA_CARACTER   0x0000c0    program     static ..\..\Downloads\fase3.asm
-                 HIGH_INT   0x00001a    program     static ..\..\Downloads\fase3.asm
-            HI_INT_VECTOR   0x000008    program     static ..\..\Downloads\fase3.asm
-              INIT_EUSART   0x000084    program     static ..\..\Downloads\fase3.asm
-                 INIT_INT   0x000054    program     static ..\..\Downloads\fase3.asm
-               INIT_PORTS   0x000076    program     static ..\..\Downloads\fase3.asm
-                INIT_VARS   0x000072    program     static ..\..\Downloads\fase3.asm
-                     LOOP   0x0000a2    program     static ..\..\Downloads\fase3.asm
-           LOW_INT_VECTOR   0x000018    program     static ..\..\Downloads\fase3.asm
-                     MAIN   0x000092    program     static ..\..\Downloads\fase3.asm
-                   NOPS10   0x00010e    program     static ..\..\Downloads\fase3.asm
-                    NOPS5   0x000116    program     static ..\..\Downloads\fase3.asm
-                   NOPS50   0x00011a    program     static ..\..\Downloads\fase3.asm
-            PROCESSA_BYTE   0x0000b0    program     static ..\..\Downloads\fase3.asm
-            PROCESSA_LEDS   0x000026    program     static ..\..\Downloads\fase3.asm
-                RESET_RAM   0x0000c8    program     static ..\..\Downloads\fase3.asm
-              RESET_TIMER   0x000068    program     static ..\..\Downloads\fase3.asm
-             RESET_VECTOR   0x000000    program     static ..\..\Downloads\fase3.asm
-                    TX_PC   0x0000f6    program     static ..\..\Downloads\fase3.asm
+               APAGA_LEDS   0x000048    program     static ..\..\..\Downloads\fase3.asm
+                 BLINKING   0x000034    program     static ..\..\..\Downloads\fase3.asm
+                 ENVIA_RF   0x0000ea    program     static ..\..\..\Downloads\fase3.asm
+            ESBORRAR_LOOP   0x0000ce    program     static ..\..\..\Downloads\fase3.asm
+          GUARDA_CARACTER   0x0000c0    program     static ..\..\..\Downloads\fase3.asm
+                 HIGH_INT   0x00001a    program     static ..\..\..\Downloads\fase3.asm
+            HI_INT_VECTOR   0x000008    program     static ..\..\..\Downloads\fase3.asm
+              INIT_EUSART   0x000084    program     static ..\..\..\Downloads\fase3.asm
+                 INIT_INT   0x000054    program     static ..\..\..\Downloads\fase3.asm
+               INIT_PORTS   0x000076    program     static ..\..\..\Downloads\fase3.asm
+                INIT_VARS   0x000072    program     static ..\..\..\Downloads\fase3.asm
+                     LOOP   0x0000a2    program     static ..\..\..\Downloads\fase3.asm
+           LOW_INT_VECTOR   0x000018    program     static ..\..\..\Downloads\fase3.asm
+                     MAIN   0x000092    program     static ..\..\..\Downloads\fase3.asm
+                   NOPS10   0x00010e    program     static ..\..\..\Downloads\fase3.asm
+                    NOPS5   0x000116    program     static ..\..\..\Downloads\fase3.asm
+                   NOPS50   0x00011a    program     static ..\..\..\Downloads\fase3.asm
+            PROCESSA_BYTE   0x0000b0    program     static ..\..\..\Downloads\fase3.asm
+            PROCESSA_LEDS   0x000026    program     static ..\..\..\Downloads\fase3.asm
+                RESET_RAM   0x0000c8    program     static ..\..\..\Downloads\fase3.asm
+              RESET_TIMER   0x000068    program     static ..\..\..\Downloads\fase3.asm
+             RESET_VECTOR   0x000000    program     static ..\..\..\Downloads\fase3.asm
+                    TX_PC   0x0000f6    program     static ..\..\..\Downloads\fase3.asm
 
 
 
                               Symbols - Sorted by Address
                      Name    Address   Location    Storage File                     
                 ---------  ---------  ---------  --------- ---------                
-             RESET_VECTOR   0x000000    program     static ..\..\Downloads\fase3.asm
-            HI_INT_VECTOR   0x000008    program     static ..\..\Downloads\fase3.asm
-           LOW_INT_VECTOR   0x000018    program     static ..\..\Downloads\fase3.asm
-                 HIGH_INT   0x00001a    program     static ..\..\Downloads\fase3.asm
-            PROCESSA_LEDS   0x000026    program     static ..\..\Downloads\fase3.asm
-                 BLINKING   0x000034    program     static ..\..\Downloads\fase3.asm
-               APAGA_LEDS   0x000048    program     static ..\..\Downloads\fase3.asm
-                 INIT_INT   0x000054    program     static ..\..\Downloads\fase3.asm
-              RESET_TIMER   0x000068    program     static ..\..\Downloads\fase3.asm
-                INIT_VARS   0x000072    program     static ..\..\Downloads\fase3.asm
-               INIT_PORTS   0x000076    program     static ..\..\Downloads\fase3.asm
-              INIT_EUSART   0x000084    program     static ..\..\Downloads\fase3.asm
-                     MAIN   0x000092    program     static ..\..\Downloads\fase3.asm
-                     LOOP   0x0000a2    program     static ..\..\Downloads\fase3.asm
-            PROCESSA_BYTE   0x0000b0    program     static ..\..\Downloads\fase3.asm
-          GUARDA_CARACTER   0x0000c0    program     static ..\..\Downloads\fase3.asm
-                RESET_RAM   0x0000c8    program     static ..\..\Downloads\fase3.asm
-            ESBORRAR_LOOP   0x0000ce    program     static ..\..\Downloads\fase3.asm
-                 ENVIA_RF   0x0000ea    program     static ..\..\Downloads\fase3.asm
-                    TX_PC   0x0000f6    program     static ..\..\Downloads\fase3.asm
-                   NOPS10   0x00010e    program     static ..\..\Downloads\fase3.asm
-                    NOPS5   0x000116    program     static ..\..\Downloads\fase3.asm
-                   NOPS50   0x00011a    program     static ..\..\Downloads\fase3.asm
+             RESET_VECTOR   0x000000    program     static ..\..\..\Downloads\fase3.asm
+            HI_INT_VECTOR   0x000008    program     static ..\..\..\Downloads\fase3.asm
+           LOW_INT_VECTOR   0x000018    program     static ..\..\..\Downloads\fase3.asm
+                 HIGH_INT   0x00001a    program     static ..\..\..\Downloads\fase3.asm
+            PROCESSA_LEDS   0x000026    program     static ..\..\..\Downloads\fase3.asm
+                 BLINKING   0x000034    program     static ..\..\..\Downloads\fase3.asm
+               APAGA_LEDS   0x000048    program     static ..\..\..\Downloads\fase3.asm
+                 INIT_INT   0x000054    program     static ..\..\..\Downloads\fase3.asm
+              RESET_TIMER   0x000068    program     static ..\..\..\Downloads\fase3.asm
+                INIT_VARS   0x000072    program     static ..\..\..\Downloads\fase3.asm
+               INIT_PORTS   0x000076    program     static ..\..\..\Downloads\fase3.asm
+              INIT_EUSART   0x000084    program     static ..\..\..\Downloads\fase3.asm
+                     MAIN   0x000092    program     static ..\..\..\Downloads\fase3.asm
+                     LOOP   0x0000a2    program     static ..\..\..\Downloads\fase3.asm
+            PROCESSA_BYTE   0x0000b0    program     static ..\..\..\Downloads\fase3.asm
+          GUARDA_CARACTER   0x0000c0    program     static ..\..\..\Downloads\fase3.asm
+                RESET_RAM   0x0000c8    program     static ..\..\..\Downloads\fase3.asm
+            ESBORRAR_LOOP   0x0000ce    program     static ..\..\..\Downloads\fase3.asm
+                 ENVIA_RF   0x0000ea    program     static ..\..\..\Downloads\fase3.asm
+                    TX_PC   0x0000f6    program     static ..\..\..\Downloads\fase3.asm
+                   NOPS10   0x00010e    program     static ..\..\..\Downloads\fase3.asm
+                    NOPS5   0x000116    program     static ..\..\..\Downloads\fase3.asm
+                   NOPS50   0x00011a    program     static ..\..\..\Downloads\fase3.asm
 
 
